@@ -1,20 +1,16 @@
 extends:
   - semistandard
   - plugin:lodash-fp/recommended
-parserOptions:
-  sourceType: script
+  - prettier
 plugins:
+  - prettier
   - lodash-fp
 rules:
+  prettier/prettier:
+    - error
+    -
+      singleQuote: true
+      bracketSpacing: false
   strict:
     - error
     - safe
-  max-len:
-    - error
-    -
-      code: 80
-      ignoreComments: true
-      ignoreUrls: true
-      ignoreStrings: true
-      ignoreTemplateLiterals: true
-      ignoreRegExpLiterals: true
