@@ -26,6 +26,11 @@
     "machine learning",
     "ml"
   ],
+  "repository": {
+    "url": "https://github.com/boneskull/puddlenuts.git",
+    "type": "git"
+  },
+  "bugs": "https://github.com/boneskull/puddlenuts/issues",
   "author": "Christopher Hiller <boneskull@boneskull.com>",
   "license": "Apache-2.0",
   "dependencies": {
@@ -39,7 +44,7 @@
     "raspicam": "^0.2.14",
     "rxjs": "^5.4.3",
     "tmp": "0.0.31",
-    "watson-developer-cloud": "^2.37.0",
+    "watson-developer-cloud": "^2.39.0",
     "yargs": "^8.0.2"
   },
   "bin": {
@@ -48,13 +53,13 @@
   "devDependencies": {
     "@types/archiver": "^2.0.0",
     "@types/common-tags": "^1.2.5",
-    "@types/dotenv": "^4.0.0",
-    "@types/lodash": "^4.14.73",
-    "@types/mocha": "^2.2.41",
+    "@types/dotenv": "^4.0.1",
+    "@types/lodash": "^4.14.74",
+    "@types/mocha": "^2.2.42",
     "@types/sinon": "^2.3.3",
     "@types/tmp": "0.0.33",
     "@types/yargs": "^8.0.2",
-    "eslint": "^4.4.1",
+    "eslint": "^4.5.0",
     "eslint-config-semistandard": "^11.0.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-import": "^2.7.0",
