@@ -1,0 +1,75 @@
+{
+  "name": "puddlenuts",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "keywords": [
+    "ai",
+    "cognitive",
+    "watson",
+    "bluemix",
+    "ibm",
+    "rpi",
+    "raspi",
+    "raspberry pi",
+    "raspbian",
+    "camera",
+    "photo",
+    "snapshot",
+    "raspistill",
+    "training",
+    "class",
+    "classifier",
+    "visual",
+    "visual recognition",
+    "object recognition",
+    "machine learning",
+    "ml"
+  ],
+  "author": "Christopher Hiller <boneskull@boneskull.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "archiver": "^2.0.0",
+    "async-exit-hook": "^2.0.1",
+    "common-tags": "^1.4.0",
+    "dotenv": "^4.0.0",
+    "lodash": "^4.17.4",
+    "npmlog": "^4.1.2",
+    "onoff": "^1.1.5",
+    "raspicam": "^0.2.14",
+    "rxjs": "^5.4.3",
+    "tmp": "0.0.31",
+    "watson-developer-cloud": "^2.37.0",
+    "yargs": "^8.0.2"
+  },
+  "bin": {
+    "puddlenuts": "bin/puddlenuts.js"
+  },
+  "devDependencies": {
+    "@types/archiver": "^2.0.0",
+    "@types/common-tags": "^1.2.5",
+    "@types/dotenv": "^4.0.0",
+    "@types/lodash": "^4.14.73",
+    "@types/mocha": "^2.2.41",
+    "@types/sinon": "^2.3.3",
+    "@types/tmp": "0.0.33",
+    "@types/yargs": "^8.0.2",
+    "eslint": "^4.4.1",
+    "eslint-config-semistandard": "^11.0.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-lodash-fp": "^2.1.3",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "mocha": "^3.5.0",
+    "sinon": "^3.2.1",
+    "unexpected": "^10.33.2"
+  },
+  "scripts": {
+    "test": "eslint bin/ lib/"
+  },
+  "engines": {
+    "node": "^8.0.0"
+  }
+}
