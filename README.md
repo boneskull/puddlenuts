@@ -87,7 +87,7 @@ Take a photo with the camera or use an on-disk image to classify against a previ
 - Use ternary operators wherever possible, but do not nest them.
 - Favor template strings over string concatenation
 - Use [currying](https://lodash.com/docs/4.17.4#curry) where it makes sense
-- Leverage `[util.promisify()](https://nodejs.org/api/util.html#util_util_promisify_original)` or [promwrap](https://npm.im/promwrap) instead of Node.js-style callbacks
+- Leverage [`util.promisify()`](https://nodejs.org/api/util.html#util_util_promisify_original) or [promwrap](https://npm.im/promwrap) instead of Node.js-style callbacks
 - Code will be formatted automatically upon commit via [prettier](https://npm.im/prettier)
 
 ## Roadmap
