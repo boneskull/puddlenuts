@@ -61,7 +61,6 @@
     "puddlenuts": "bin/puddlenuts.js"
   },
   "devDependencies": {
-    "@types/p-event": "^1.3.0",
     "eslint": "^4.5.0",
     "eslint-config-prettier": "^2.3.0",
     "eslint-config-semistandard": "^11.0.0",
