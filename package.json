@@ -1,6 +1,6 @@
 {
   "name": "puddlenuts",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "CLI to help create custom classifiers for visual recognition systems",
   "main": "index.js",
   "module": "lib/index.js",
