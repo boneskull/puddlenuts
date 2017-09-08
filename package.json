@@ -35,8 +35,8 @@
   "author": "Christopher Hiller <boneskull@boneskull.com>",
   "license": "Apache-2.0",
   "dependencies": {
-    "@std/esm": "^0.5.1",
-    "archiver": "^2.0.0",
+    "@std/esm": "^0.8.3",
+    "archiver": "^2.0.3",
     "async-exit-hook": "^2.0.1",
     "common-tags": "^1.4.0",
     "delay": "^2.0.0",
@@ -44,16 +44,16 @@
     "lodash": "^4.17.4",
     "loud-rejection": "^1.6.0",
     "npmlog": "^4.1.2",
-    "onoff": "^1.1.5",
+    "onoff": "^1.1.7",
     "p-each-series": "^1.0.0",
     "p-event": "^1.3.0",
     "p-map": "^1.1.1",
     "p-map-series": "^1.0.0",
     "promwrap": "^1.0.0",
-    "purdy": "^2.2.1",
+    "purdy": "^3.0.2",
     "raspicam": "^0.2.14",
     "read-pkg": "^2.0.0",
-    "tmp": "0.0.31",
+    "tmp": "0.0.33",
     "watson-developer-cloud": "^2.39.0",
     "yargs": "^8.0.2"
   },
@@ -61,8 +61,8 @@
     "puddlenuts": "bin/puddlenuts.js"
   },
   "devDependencies": {
-    "eslint": "^4.5.0",
-    "eslint-config-prettier": "^2.3.0",
+    "eslint": "^4.6.1",
+    "eslint-config-prettier": "^2.4.0",
     "eslint-config-semistandard": "^11.0.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-import": "^2.7.0",
@@ -72,11 +72,11 @@
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
     "husky": "^0.14.3",
-    "lint-staged": "^4.0.4",
+    "lint-staged": "^4.1.3",
     "mocha": "^3.5.0",
-    "prettier": "^1.5.3",
+    "prettier": "^1.6.1",
     "sinon": "^3.2.1",
-    "unexpected": "^10.33.2"
+    "unexpected": "^10.35.0"
   },
   "scripts": {
     "precommit": "lint-staged",
