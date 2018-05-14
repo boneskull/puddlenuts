@@ -1,7 +1,7 @@
 extends:
   - semistandard
+  - plugin:prettier/recommended
   - plugin:lodash-fp/recommended
-  - prettier
 plugins:
   - prettier
   - lodash-fp
@@ -14,3 +14,14 @@ rules:
   strict:
     - error
     - safe
+overrides:
+  - files:
+    - index.js
+    parserOptions:
+      sourceType: script
+    rules:
+      no-global-assign: off
+  - files:
+    - test/**/*.js
+    env:
+      mocha: true
