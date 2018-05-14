@@ -83,7 +83,7 @@
     "precommit": "lint-staged",
     "format": "prettier-eslint --write 'test/**/*.js' 'lib/**/*.js' 'bin/**/*.js'",
     "pretest": "npm run format",
-    "test": "snyk test && mocha -r esm",
+    "test": "mocha -r esm",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "engines": {
