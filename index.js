@@ -1,6 +1,5 @@
-/* eslint-disable strict */
 'use strict';
 
-require('@std/esm');
+require = require('/esm')(module);
 
-module.exports = require('./lib');
+module.exports = require('./lib/puddlenuts');
