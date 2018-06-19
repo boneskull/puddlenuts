@@ -54,7 +54,8 @@
     "raspicam": "^0.2.14",
     "tmp": "0.0.33",
     "watson-developer-cloud": "^2.42.0",
-    "yargs": "^8.0.2"
+    "yargs": "^8.0.2",
+    "snyk": "^1.83.0"
   },
   "bin": {
     "puddlenuts": "bin/puddlenuts.js"
@@ -76,7 +77,6 @@
     "prettier-eslint-cli": "^4.7.1",
     "semantic-release": "^8.0.3",
     "sinon": "^3.3.0",
-    "snyk": "^1.80.0",
     "unexpected": "^10.37.7"
   },
   "scripts": {
@@ -84,7 +84,9 @@
     "format": "prettier-eslint --write 'test/**/*.js' 'lib/**/*.js' 'bin/**/*.js'",
     "pretest": "npm run format",
     "test": "mocha -r esm",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "engines": {
     "node": "^8.0.0"
@@ -102,5 +104,6 @@
   "prettier": {
     "singleQuote": true,
     "bracketSpacing": false
-  }
+  },
+  "snyk": true
 }
