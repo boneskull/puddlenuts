@@ -31,4 +31,14 @@ ignore:
     - watson-developer-cloud > solr-client > request > stringstream:
         reason: no remediation
         expires: '2018-06-13T21:36:02.758Z'
-patch: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - watson-developer-cloud > solr-client > request > hawk > hoek:
+        patched: '2018-06-21T16:35:57.218Z'
+    - watson-developer-cloud > solr-client > request > hawk > boom > hoek:
+        patched: '2018-06-21T16:35:57.218Z'
+    - watson-developer-cloud > solr-client > request > hawk > sntp > hoek:
+        patched: '2018-06-21T16:35:57.218Z'
+    - watson-developer-cloud > solr-client > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-21T16:35:57.218Z'
