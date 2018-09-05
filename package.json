@@ -54,7 +54,7 @@
     "raspicam": "^0.2.14",
     "tmp": "0.0.33",
     "watson-developer-cloud": "^2.42.0",
-    "yargs": "^8.0.2"
+    "yargs": "^12.0.2"
   },
   "bin": {
     "puddlenuts": "bin/puddlenuts.js"
